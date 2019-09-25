@@ -10,10 +10,10 @@
 
 the inference code has implemented two cascaded ML models. First, the MTCNN network and then a simple CNN network.
 
-The Network structure of MTCNN is decleared in the `Train_Model` folder, while the CNN network structure is coded in the inference file.
+The network structure of MTCNN is defined in the `Train_Model` folder, while the CNN network structure is coded in the inference file.
 
 MTCNN model weights are stored in the `MTCNN_Model` folder, P-Net, R-Net, O-Net separately.
-CNN model weights are stored iun the `CNN_Model` folder, please refer to the checkpoint file in it.
+CNN model weights are stored in the `CNN_Model` folder, please refer to the checkpoint file in it.
 
 If you want to change the path, just change the value of 
 ```python
