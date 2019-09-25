@@ -39,7 +39,7 @@ def cropImg(im, x1, y1, x2, y2):
     return tmp
 
 # Configure
-model_path = ['Model/Sep19/PNet/PNet-30', 'Model/Sep19/RNet/RNet-22', 'Model/Sep19/ONet/ONet-22']
+model_path = ['MTCNN_Model/PNet/PNet-30', 'MTCNN_Model/RNet/RNet-22', 'MTCNN_Model/ONet/ONet-22']
 min_face_size = 24
 thresh = [0.9, 0.8, 0.9]
 
@@ -48,7 +48,7 @@ class_names = ['0SingleOne', '1SingleTwo', '2SingleFour', '3SingleSix',
 
 img_rows, img_cols = 28, 28
 
-model = load_classification('checkpoints/kcnn')
+model = load_classification('CNN_Model/kcnn')
 
 stride = 2
 slide_window = False

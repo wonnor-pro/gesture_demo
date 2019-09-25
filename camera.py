@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 # Configure
-model_path = ['Model/Sep19/PNet/PNet-30', 'Model/Sep19/RNet/RNet-22', 'Model/Sep19/ONet/ONet-22']
+model_path = ['MTCNN_Model/PNet/PNet-30', 'MTCNN_Model/RNet/RNet-22', 'MTCNN_Model/ONet/ONet-22']
 min_face_size = 24
 thresh = [0.9, 0.8, 0.9]
 
