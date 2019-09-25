@@ -1,0 +1,2 @@
+model_checkpoint_path: "kcnn_aug"
+all_model_checkpoint_paths: "kcnn_aug"
