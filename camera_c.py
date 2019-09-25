@@ -48,7 +48,7 @@ class_names = ['0SingleOne', '1SingleTwo', '2SingleFour', '3SingleSix',
 
 img_rows, img_cols = 28, 28
 
-model = load_classification('CNN_Model/kcnn')
+model = load_classification('CNN_Model/kcnn_aug')
 
 stride = 2
 slide_window = False
